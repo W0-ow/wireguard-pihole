@@ -26,11 +26,11 @@ Update your server
 ```bash
 sudo apt update
 ```
-
-> #### ‼️ Install [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04), [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04) and [Crontab](https://crontab.guru/)
 ---
 
-...
+> #### ‼️ Install [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04), [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04) and [Crontab](https://crontab.guru/)
+
+---
 
 Clone this repo
 
@@ -101,5 +101,3 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 - [Aws](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
 - [Azure](https://learn.microsoft.com/en-us/answers/questions/1190066/how-can-i-open-a-port-in-azure-so-that-a-constant)
 ---
-...
-
