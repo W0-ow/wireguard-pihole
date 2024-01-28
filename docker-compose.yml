@@ -32,7 +32,7 @@ services:
                         - 80
                         - 443
                 env_file:
-                        - $PWD/pihole.env
+                        - ./pihole.env
                 volumes:
                         - ./etc-pihole/:/etc/pihole/
                         - ./etc-dnsmasq.d/:/etc/dnsmasq.d/
