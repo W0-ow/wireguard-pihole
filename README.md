@@ -96,7 +96,7 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 
 **Connect to peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working**
 
-**‼️ Don't forget to add the Wiregard(51820) and Pihole(27017) ports in your server's firewall inbound rules**
+**‼️ Don't forget to add the Wiregard (51820) and Pihole (27017) ports in your server's firewall inbound rules**
 - [Aws](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
 - [Azure](https://learn.microsoft.com/en-us/answers/questions/1190066/how-can-i-open-a-port-in-azure-so-that-a-constant)
 
