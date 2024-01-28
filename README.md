@@ -92,7 +92,8 @@ scp -i <private_key> -r <server_dns_or_ip>:~/wireguard/config ./
 
 Import tunnel (peer.conf) from config directory to your Wireguard client
 
-![Captura de pantalla 2024-01-29 a las 0 07 16](https://github.com/W0-ow/wireguard-pihole/assets/121321031/6c0b1fe5-4609-41c9-a041-27c5fed73413)
+![Captura de pantalla 2024-01-29 a las 0 10 33](https://github.com/W0-ow/wireguard-pihole/assets/121321031/3ebbe0a2-a1f6-4901-8da3-3766bbdfa820)
+
 
 
 
