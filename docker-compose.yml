@@ -7,7 +7,7 @@ services:
                         - NET_ADMIN
                         - SYS_MODULE
                 env_file:
-                        - ./guarguar.env
+                        - ./wireguard.env
                 volumes:
                         - ./config:/config
                         - /lib/modules:/lib/modules
