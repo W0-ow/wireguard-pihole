@@ -1,12 +1,14 @@
 
 ## Docker - Wireguard & Pihole
 
-Wireguard and Pihole Docker Setup for VPN.
+WirtGuard and Pihole Docker Setup for VPN.
 
 
 ## Requirements
 
 - [VPS with Ubuntu 22.0.4](https://aws.amazon.com/es/what-is/vps/)
+
+- [Wireguard client](https://www.wireguard.com/install/)
 
 - [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
 
@@ -20,7 +22,7 @@ Wireguard and Pihole Docker Setup for VPN.
 Connect with your server via SSH
 
 ```bash
-ssh -i <private_key> <server_domain_or_ip>
+ssh -i <private_key> <server_dns_or_ip>
 ```
 
 Update your server
@@ -69,4 +71,32 @@ Build images and start containers
 ```bash
 Docker compose up -d
 ```
+
+See active containers
+
+```bash
+Docker ps -a
+```
+
+Exit the server
+
+```bash
+exit
+```
+
+Copy the directory containing the configuration files for the Wireguard client
+
+```bash
+scp -i <private_key> -r <server_dns_or_ip>:~/wireguard/config ./
+```
+
+Import tunnel (peer.conf) from config directory to your Wireguard client
+
+![Captura de pantalla 2024-01-29 a las 0 07 16](https://github.com/W0-ow/wireguard-pihole/assets/121321031/6c0b1fe5-4609-41c9-a041-27c5fed73413)
+
+
+
+**‼️ Don't forget to add the Wiregard(51820) and Pihole(27017) ports in your server's firewall inbound rules**
+- [AWS](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
+- [AZURE](https://learn.microsoft.com/en-us/answers/questions/1190066/how-can-i-open-a-port-in-azure-so-that-a-constant)
 
