@@ -27,6 +27,8 @@ Update your server
 sudo apt update
 ```
 
+#### ‼️ Install [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04), [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04) and [Crontab](https://crontab.guru/)
+
 Clone this repo
 
 ```bash
@@ -90,9 +92,9 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 
 ![image](https://github.com/W0-ow/wireguard-pihole/assets/121321031/ddc0d82c-84f5-4901-b07e-661d819c6df2)
 
-**Connect to peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working**
+#### Connect to peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working
 
-**‼️ Don't forget to add the Wiregard (51820) and Pihole (27017) port in your server's firewall inbound rules**
+#### ‼️ Don't forget to add the Wiregard (51820) and Pihole (27017) port in your server's firewall inbound rules
 - [Aws](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
 - [Azure](https://learn.microsoft.com/en-us/answers/questions/1190066/how-can-i-open-a-port-in-azure-so-that-a-constant)
 
