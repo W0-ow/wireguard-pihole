@@ -15,3 +15,5 @@ docker build ./docker-compose.yml
 
 # levantamos los contenedores
 docker compose up -d
+
+# add this line with crontab: 0 0 1 * * bash ~/update_pihole_guarguar.sh
