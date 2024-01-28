@@ -7,13 +7,9 @@ WirtGuard and Pihole Docker Setup for VPN.
 ## Requirements
 
 - [VPS with Ubuntu 22.0.4](https://aws.amazon.com/es/what-is/vps/)
-
 - [Wireguard client](https://www.wireguard.com/install/)
-
 - [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
-
 - [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04)
-
 - [Crontab](https://crontab.guru/)
 
 
