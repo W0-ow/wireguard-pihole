@@ -89,7 +89,7 @@ CONTAINER ID   IMAGE                   COMMAND      CREATED       STATUS        
 Add the **update_wireguard_pihole.sh** script to Crontab to update Wireguard and Pihole monthly
 
 ```bash
-crontab -e
+sudo crontab -e
 ```
 
 ```bash
