@@ -4,9 +4,8 @@
 Wireguard and Pihole Docker Setup for VPN with Ad Blocker.
 
 <p align=center>
-  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/8da1faa7-1026-493f-a489-b64c59699ec6" width=60% height=60%>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/8da1faa7-1026-493f-a489-b64c59699ec6" width=50% height=50%>
 </p>
-
 
 ## Requirements
 
@@ -122,7 +121,9 @@ scp -i <private_key> -r <server_dns_or_ip>:~/wireguard/config ./
 
 Import tunnel (peer.conf) from config directory to your Wireguard client
 
-![image](https://github.com/W0-ow/wireguard-pihole/assets/121321031/fd59be35-3e90-41e5-b193-6b776f140304)
+<p align=center>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/fd59be35-3e90-41e5-b193-6b776f140304" width=50% height=50%>
+</p>
 
 ---
 
@@ -132,8 +133,6 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 
 **To see dashboard and info of Ad blocker (Pihole) go [http://172.20.0.7/admin/](http://172.20.0.7/admin/)**
 
-
-![Captura de pantalla 2024-01-29 a las 22 54 15](https://github.com/W0-ow/wireguard-pihole/assets/121321031/04fa7b78-f4d0-46b7-8511-ce25ffa0d8c6)
-
-
-
+<p align=center>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/2d62e763-b501-4d49-b498-c7f3a0982b6e" width=50% height=50%>
+</p>
