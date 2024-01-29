@@ -36,13 +36,13 @@ sudo apt update
 Clone this repo
 
 ```bash
-git clone https://github.com/W0-ow/wireguard-pihole.git ./wireguard
+git clone https://github.com/W0-ow/wireguard-pihole.git ~/wireguard
 ```
 
 Go to the project directory
 
 ```bash
-cd /wireguard
+cd ~/wireguard
 ```
 
 Configure env files
