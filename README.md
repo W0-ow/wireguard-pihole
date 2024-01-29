@@ -33,7 +33,7 @@ sudo apt update
 
 ---
 
-Clone this repo
+Clone this repository
 
 ```bash
 git clone https://github.com/W0-ow/wireguard-pihole.git ~/wireguard
@@ -45,7 +45,7 @@ Go to the project directory
 cd ~/wireguard
 ```
 
-Configure env files
+Edit env files
 
 ```bash
 vim wireguard.env
