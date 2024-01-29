@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # cd capeta wireguard que es en donde tenemos el archivo yml
-cd ~/wireguard
+cd $HOME/wireguard
 
 # tiramos todos los contenedores en funcionamiento
 docker compose down
