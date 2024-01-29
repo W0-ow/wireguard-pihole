@@ -1,5 +1,5 @@
 
-## Docker - Wireguard & Pihole
+## Docker, Wireguard & Pihole
 
 Wireguard and Pihole Docker Setup for VPN with Ad Blocker.
 
