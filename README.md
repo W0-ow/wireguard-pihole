@@ -113,7 +113,7 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 ![image](https://github.com/W0-ow/wireguard-pihole/assets/121321031/fd59be35-3e90-41e5-b193-6b776f140304)
 
 
-**Active peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working**
+**Activate the peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working**
 
 ---
 
