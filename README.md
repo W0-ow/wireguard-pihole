@@ -1,7 +1,7 @@
 
 ## Docker - Wireguard & Pihole
 
-WirtGuard and Pihole Docker Setup for VPN.
+Wireguard and Pihole Docker Setup for VPN.
 
 
 ## Requirements
