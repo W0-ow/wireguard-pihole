@@ -3,10 +3,9 @@
 
 Wireguard and Pihole Docker Setup for VPN with Ad Blocker.
 
-
-<img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/8da1faa7-1026-493f-a489-b64c59699ec6" width=80% height=70% style="display: block;
-  margin-left: auto;
-  margin-right: auto;">
+<p align=center>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/8da1faa7-1026-493f-a489-b64c59699ec6" width=60% height=60%>
+</p>
 
 
 ## Requirements
