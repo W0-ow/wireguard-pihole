@@ -102,6 +102,14 @@ Exit the server
 exit
 ```
 
+---
+
+**‼️ Don't forget to add the Wiregard (51820) and Pihole (27017) port in your server's firewall inbound rules**
+- [Aws](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
+- [Azure](https://learn.microsoft.com/en-us/answers/questions/1190066/how-can-i-open-a-port-in-azure-so-that-a-constant)
+
+---
+
 Copy the directory containing the configuration files for the Wireguard client
 
 ```bash
@@ -114,11 +122,3 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 
 
 **Activate the peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working**
-
----
-
-**‼️ Don't forget to add the Wiregard (51820) and Pihole (27017) port in your server's firewall inbound rules**
-- [Aws](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
-- [Azure](https://learn.microsoft.com/en-us/answers/questions/1190066/how-can-i-open-a-port-in-azure-so-that-a-constant)
-
----
