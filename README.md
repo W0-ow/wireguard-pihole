@@ -86,13 +86,11 @@ CONTAINER ID   IMAGE                   COMMAND      CREATED       STATUS        
 71ae2c567b43   pihole/pihole:latest    "/s6-init"   3 hours ago   Up 3 hours (healthy)   53/tcp, 53/udp, 67/tcp, 80/tcp, 443/tcp, 67/udp   pihole
 ```
 
-Add job to Crontab for update wireguard and pihole monthly
+Add script update_wireguard_pihole.sh to Crontab for update Wireguard and Pihole monthly
 
 ```bash
 crontab -e
 ```
-
-Add the script
 
 ```bash
 0 0 1 * * bash ~/wireguard/update_wireguard_pihole.sh
