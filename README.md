@@ -93,7 +93,7 @@ crontab -e
 ```
 
 ```bash
-0 0 1 * * bash ~/wireguard/update_wireguard_pihole.sh
+0 0 1 * * bash $HOME/wireguard/update_wireguard_pihole.sh
 ```
 
 Exit the server
