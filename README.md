@@ -86,7 +86,7 @@ e907ac686b9a   linuxserver/wireguard   "/init"      12 seconds ago   Up 11 secon
 7fa024f848fe   pihole/pihole:latest    "/s6-init"   12 seconds ago   Up 11 seconds (health: starting)   53/tcp, 53/udp, 67/tcp, 80/tcp, 443/tcp, 67/udp   pihole
 ```
 
-Add the **update_wireguard_pihole.sh** script to Crontab to update Wireguard and Pihole monthly
+Add the **update_wireguard_pihole.sh** script in Crontab to update Wireguard and Pihole monthly
 
 ```bash
 sudo crontab -e
