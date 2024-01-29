@@ -80,6 +80,24 @@ See active containers
 Docker ps -a
 ```
 
+```bash
+CONTAINER ID   IMAGE                   COMMAND      CREATED       STATUS                 PORTS                                             NAMES
+67834600a397   linuxserver/wireguard   "/init"      3 hours ago   Up 3 hours             0.0.0.0:51820->51820/udp, :::51820->51820/udp     wireguard
+71ae2c567b43   pihole/pihole:latest    "/s6-init"   3 hours ago   Up 3 hours (healthy)   53/tcp, 53/udp, 67/tcp, 80/tcp, 443/tcp, 67/udp   pihole
+```
+
+Add job to Crontab for update wireguard and pihole monthly
+
+```bash
+crontab -e
+```
+
+Add the script
+
+```bash
+0 0 1 * * bash ~/wireguard/update_wireguard_pihole.sh
+```
+
 Exit the server
 
 ```bash
