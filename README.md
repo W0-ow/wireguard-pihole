@@ -1,7 +1,7 @@
 
 ## Docker - Wireguard & Pihole
 
-Wireguard and Pihole Docker Setup for VPN & ADBLOCK.
+Wireguard and Pihole Docker Setup for VPN with Ad Blocker.
 
 
 ## Requirements
