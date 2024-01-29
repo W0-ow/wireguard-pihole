@@ -122,7 +122,7 @@ scp -i <private_key> -r <server_dns_or_ip>:~/wireguard/config ./
 Import tunnel (peer.conf) from config directory to your Wireguard client
 
 <p align=center>
-  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/fd59be35-3e90-41e5-b193-6b776f140304" width=50% height=50%>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/fd59be35-3e90-41e5-b193-6b776f140304" width=80% height=80%>
 </p>
 
 ---
@@ -134,5 +134,5 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 **To see dashboard and info of Ad blocker (Pihole) go [http://172.20.0.7/admin/](http://172.20.0.7/admin/)**
 
 <p align=center>
-  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/2d62e763-b501-4d49-b498-c7f3a0982b6e" width=50% height=50%>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/2d62e763-b501-4d49-b498-c7f3a0982b6e" width=80% height=80%>
 </p>
