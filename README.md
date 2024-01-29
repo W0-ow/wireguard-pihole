@@ -129,6 +129,10 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 
 **Activate the peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working**
 
+<p align=center>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/d3d83315-0931-4cf1-8b75-b18f01e725dc" width=80% height=80%>
+</p>
+
 ---
 
 **To view the dashboard and Ad blocker info (Pihole) go [http://172.20.0.7/admin/](http://172.20.0.7/admin/)**
