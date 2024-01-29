@@ -110,7 +110,8 @@ scp -i <private_key> -r <server_dns_or_ip>:~/wireguard/config ./
 
 Import tunnel (peer.conf) from config directory to your Wireguard client
 
-![image](https://github.com/W0-ow/wireguard-pihole/assets/121321031/ddc0d82c-84f5-4901-b07e-661d819c6df2)
+![image](https://github.com/W0-ow/wireguard-pihole/assets/121321031/fd59be35-3e90-41e5-b193-6b776f140304)
+
 
 **Connect to peer and go to [ipconfig.io](https://ipconfig.io/) to see if VPN is working**
 
