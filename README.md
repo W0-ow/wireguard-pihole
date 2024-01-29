@@ -134,5 +134,5 @@ Import tunnel (peer.conf) from config directory to your Wireguard client
 **To see dashboard and info of Ad blocker (Pihole) go [http://172.20.0.7/admin/](http://172.20.0.7/admin/)**
 
 <p align=center>
-  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/2d62e763-b501-4d49-b498-c7f3a0982b6e" width=80% height=80%>
+  <img src="https://github.com/W0-ow/wireguard-pihole/assets/121321031/b6e95d30-8223-4abc-bc2e-312264295a75" width=80% height=80%>
 </p>
