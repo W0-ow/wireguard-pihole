@@ -107,7 +107,7 @@ exit
 
 ---
 
-**‼️ Don't forget to add the Wiregard (51820) and Pihole (27017) port in your server's firewall inbound rules**
+**‼️ Don't forget to add the Wireguard (51820) and Pihole (27017) port in your server's firewall inbound rules**
 - [Aws](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
 - [Azure](https://learn.microsoft.com/en-us/answers/questions/1190066/how-can-i-open-a-port-in-azure-so-that-a-constant)
 
